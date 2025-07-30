@@ -1,16 +1,20 @@
-# Compiled class file
+# 👉 Arquivos de compilação Java
 *.class
 
-# Log file
+# 👉 Logs
 *.log
+hs_err_pid*
+replay_pid*
 
-# BlueJ files
-*.ctxt
+# 👉 Ferramentas e IDEs
+/.idea/
+/*.iml
+*.ctxt      # BlueJ
+.mtj.tmp/   # J2ME
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# 👉 Builds e pacotes
+/out/
+/target/
 *.jar
 *.war
 *.nar
@@ -19,27 +23,9 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
-
-# Arquivos de compilação Java
-*.class
-
-# Logs
-*.log
-
-# Diretórios e arquivos da IDE IntelliJ
-/.idea/
-/*.iml
-
-# Build automático
-/out/
-/target/
-
-# Configurações locais
+# 👉 Configurações locais
 *.swp
 
-# Sistema
+# 👉 Sistema operacional
 .DS_Store
 Thumbs.db
