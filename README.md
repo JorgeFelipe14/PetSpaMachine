@@ -1,3 +1,5 @@
+![PetSpaMachine Banner](./banner.png)
+
 🐶 PetSpaMachine
 
 Simulador de banho, desenvolvido com Java e POO. Ideal para fins educativos e demonstração de lógica orientada a objetos.
